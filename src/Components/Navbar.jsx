@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const handleHome = () => {
     setShowSide(!showSide);
-    navigate("/home");
+    navigate("/");
   };
 
   const items = navs.map((val, i) => (
@@ -104,7 +104,7 @@ const Navbar = () => {
             <div className="">
               <h2
                 className="text-redColor font-extrabold text-3xl cursor-pointer"
-                onClick={() => navigate("/home")}
+                onClick={() => navigate("/")}
               >
                 Twister
               </h2>
