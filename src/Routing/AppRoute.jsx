@@ -19,7 +19,7 @@ const AppRoute = () => {
  
   return (
     <>
-      <HashRouter basename="/home">
+      <HashRouter>
         <Navbar />
         <ScrollToTop />
         <Routes>
