@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Khaled-mo9.github.com/e-commerce",
+  "homepage": "https://Khaled-mo9.github.io/e-commerce",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
